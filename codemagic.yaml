@@ -10,8 +10,8 @@ workflows:
         # тут мають лежати APPSTORE_ISSUER_ID, APPSTORE_KEY_ID, APPSTORE_P8, APPLE_EMAIL
         - appstore-connect
       vars:
-        IOS_BUNDLE_ID: com.honcharproj.app
-        APP_NAME: One More Draw
+        IOS_BUNDLE_ID: com.kovalenkooproj.app
+        APP_NAME: Relics Runs Rush
 
     scripts:
       - name: Print working dir & contents
